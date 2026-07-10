@@ -2117,10 +2117,18 @@ MonoBehaviour:
   - {fileID: 246361437}
   - {fileID: 1236012088}
   flockNeighbors: []
-  currentState: 0
+  currentState: 3
   detectionRange: 15
   evadeRange: 5
   idleTime: 2
+  evadeExitDistance: 7
+  chaseExitDistance: 12
+  minTimeInState: 0.5
+  transitionCooldown: 0.5
+  stuckDetectionTime: 3
+  stuckDistanceThreshold: 0.5
+  showDebugLogs: 1
+  showGizmos: 1
 --- !u!114 &1254658185
 MonoBehaviour:
   m_ObjectHideFlags: 0
